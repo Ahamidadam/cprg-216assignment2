@@ -1,3 +1,19 @@
+"""
+Name: Ahamid Adam
+
+Date: November 27, 2025
+
+Program Description:This file contains all core functions for the Student Record Program. 
+It manages how students are added, removed, searched, and edited inside 
+a shared dictionary called 'students'. The functions here handle the main 
+processing logic, including input collection, updating the dictionary, and 
+printing results back to the user. All data passed through these functions 
+affects the central student registry used across the entire application.
+Inputs come from the user through the menu system, and the outputs are text 
+responses showing program results.
+
+"""
+
 students = {}  
 
 def show_menu(): #display menu options and get user choice

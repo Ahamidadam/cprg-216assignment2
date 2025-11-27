@@ -1,3 +1,18 @@
+"""
+
+Name: Ngor Ruot 
+
+Date: November 27, 2025
+
+Program Description:
+
+This is the main execution file for the Student Record Program. It displays the menu, takes user input, calls the appropriate functions from functions.py, 
+and loops until the user chooses to exit. The program interacts with the shared dictionary 'students' to store student profiles including name, GPA, 
+and semester. Inputs come from the keyboard and outputs are printed messages confirming modifications, search results, and program actions.
+
+"""
+
+
 from functions import *
 
 print("Welcome to the students record program")

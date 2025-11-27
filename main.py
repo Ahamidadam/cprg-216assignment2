@@ -14,6 +14,6 @@ while True:
     elif choice == "4":
         run_remove(students)
 
-    cont = input("\nWhat you like to continue(y/yes), or exit the program(n/no)?\n").lower()
+    cont = input("What you like to continue(y/yes), or exit the program(n/no)?\n").lower()
     if cont not in ["y", "yes"]:
         break     

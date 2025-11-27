@@ -44,7 +44,6 @@ Student added
 125      John Doe        2.8     2
 Do you want to add a new student?y(yes)/n(no)
 n
-
 What you like to continue(y/yes), or exit the program(n/no)?
 y
 What would you like to do today?
@@ -59,7 +58,6 @@ Student found
 123      Emy Wang        3.4
 Enter the id of the student. Enter -1 to return to the previous menu
 -1
-
 What you like to continue(y/yes), or exit the program(n/no)?
 y
 What would you like to do today?
@@ -76,7 +74,6 @@ Student name modified for the student with id  123
 Student's new name is  Sarah Wang
 Enter the id of the student. Enter -1 to return to the previous menu
 -1
-
 What you like to continue(y/yes), or exit the program(n/no)?
 y
 What would you like to do today?
@@ -85,12 +82,10 @@ What would you like to do today?
 -Add a new student? enter 3
 -Remove a student? enter 4
 4
-
 Enter id of the student that you want to remove from the students' registry.
 id:
 123
 Student removed
 Do you want to remove more students?y(yes)/n(no)n
-
 What you like to continue(y/yes), or exit the program(n/no)?
 n

@@ -65,7 +65,7 @@ def run_edit(students_dict):
 
 def run_remove(students_dict):
     while True:
-        sid = input("\nEnter id of the student that you want to remove from the students' registry.\nid:\n")
+        sid = input("Enter id of the student that you want to remove from the students' registry.\nid:\n")
         remove(students_dict, sid)
         again = input("Do you want to remove more students?y(yes)/n(no)")
         if again.lower() != "y":

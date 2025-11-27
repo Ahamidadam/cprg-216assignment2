@@ -1,9 +1,9 @@
 """
-Name: Ahamid Adam
+Name: Ahamid Adam, Kenneth Gomez, Ngor Ruot
 
 Date: November 27, 2025
 
-Program Description:This file contains all core functions for the Student Record Program. 
+Program Description: This file contains all core functions for the Student Record Program. 
 It manages how students are added, removed, searched, and edited inside 
 a shared dictionary called 'students'. The functions here handle the main 
 processing logic, including input collection, updating the dictionary, and 
@@ -14,7 +14,7 @@ responses showing program results.
 
 """
 
-students = {}  
+students = {}  #empty dictionary to store students info
 
 def show_menu(): #display menu options and get user choice
     print("What would you like to do today?")
@@ -24,19 +24,19 @@ def show_menu(): #display menu options and get user choice
     print("-Remove a student? enter 4")
     return input()
 
-def add(students_dict, sid, name, gpa, semester):
+def add(students_dict, sid, name, gpa, semester): #add a new student
     students_dict[sid] = [name, gpa, semester]
     print("Student added")
     print(f"{id}      {name}        {gpa}     {semester}")
 
-def remove(students_dict, sid):
+def remove(students_dict, sid): #remove a student
     if sid in students_dict:
         del students_dict[sid]
         print("Student removed")
     else:
         print("Student not found")
 
-def edit_name(students_dict, sid, new_name):
+def edit_name(students_dict, sid, new_name): #edit a student's name
     if sid in students_dict:
         students_dict[sid][0] = new_name
         print(f"Student name modified for the student with id  {sid}")
@@ -44,7 +44,7 @@ def edit_name(students_dict, sid, new_name):
     else:
         print("Student not found")
 
-def search(students_dict, sid):
+def search(students_dict, sid): #search for a student by id
     if sid in students_dict:
         name, gpa, _ = students_dict[sid]
         print("Student found")

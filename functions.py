@@ -77,7 +77,7 @@ def run_edit(students_dict): #function to edit student info
         if id == "-1":
             break
         new_name = input("Enter the new name of the student\n")
-        edit_name(students_dict, sid, new_name)
+        edit_name(students_dict, id, new_name)
 
 def run_remove(students_dict): #function to remove students
     while True:
